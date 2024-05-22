@@ -208,8 +208,8 @@ def set_audio_device():
 
 if __name__ == "__main__":
     try:
-        print(alsaaudio.mixers())
-        print(alsaaudio.cards())
+        # print(alsaaudio.mixers())
+        # print(alsaaudio.cards())
         # print(alsaaudio.mixers(device='hw:P2'))
         set_audio_device()
         setup_adc()
